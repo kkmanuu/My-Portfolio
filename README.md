@@ -18,28 +18,6 @@
   - [🤝 Contributing ](#-contributing-a-namecontributinga)
   - [🙏 Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)
   - [📝 License ](#-license-a-namelicensea)
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
-
-
 # 📖 Portfolio <a name="about-project"></a>
 
 This website made for mobile version only.
@@ -64,23 +42,22 @@ To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
-none
+In order to run this project you need:
+
+git
+npm
+node
 
 ### Setup
 
-none
+Clone this repository to your desired folder:
 
-
-### Install
-
-Install this project with:
-
-cd portfolio
-npm install
+git clone https://github.com/kkmanuu
 
 ### Usage
+To run the project:
 
-none
+Open the index file in your browser or live server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
