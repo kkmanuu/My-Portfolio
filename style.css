@@ -60,20 +60,13 @@ body {
   line-height: 2.4rem;
 }
 
-.secondary-header {
-  color: #7f8cff;
-  font-size: 1.6rem;
-  font-weight: 500;
-  margin-bottom: 1.2rem;
-}
-
 .social-icons {
   list-style: none;
   display: flex;
   gap: 2rem;
   align-items: center;
 }
-/* WORKS */
+
 .works {
   background-color: #f7f7f7;
   padding: 12.8rem 0 2.8rem 0;
