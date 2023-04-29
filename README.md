@@ -26,6 +26,8 @@ This website made for mobile version only.
 
 ### Tech Stack <a name="tech-stack"></a>
 
+HTML is a Markup language and CSS is a styling language for HTML pages.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Key Features <a name="key-features"></a>
