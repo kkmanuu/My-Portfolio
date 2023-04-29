@@ -73,3 +73,170 @@ body {
   gap: 2rem;
   align-items: center;
 }
+/* WORKS */
+.works {
+  background-color: #f7f7f7;
+  padding: 12.8rem 0 2.8rem 0;
+  margin-bottom: 2.8rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4.8rem;
+}
+
+.projects {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  margin-bottom: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.project-img {
+  border-radius: 0.8rem;
+  width: 100%;
+}
+
+.tertiary-heading {
+  color: #172b4d;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+.project-details {
+  color: #7a869a;
+  font-size: 1.3rem;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.project-description {
+  color: #344563;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+.project-lang {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.project-lang li {
+  background: #ebebff;
+  color: #6070ff;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  padding: 0.4rem 1.2rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.languages-elements li {
+  list-style-type: none;
+  background-color: #f7f7f9;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.project-details li:first-child {
+  list-style: none;
+  color: #344563;
+  font-weight: 600;
+}
+
+.btn {
+  background: transparent;
+  color: #396df2;
+  font-size: 1.7rem;
+  border: 1px solid #6070ff;
+  border-radius: 0.8rem;
+  padding: 1.2rem 1.6rem;
+  align-self: flex-start;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #2230d2;
+}
+
+.btn:disabled {
+  color: #5e6c84;
+  border: 1px solid #e5e5e5;
+}
+
+/* ABOUT ME */
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.secondary-header {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.skillset {
+  margin-bottom: 12.8rem;
+  list-style: none;
+}
+
+.skillset-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+}
+
+.skillset-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.down-sign {
+  color: #acb7c3;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1.8rem;
+}
+
+.languages-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.frontend-logo {
+  width: 4.8rem;
+  height: 4.8rem;
+  list-style: none;
+}
+
+.js-logo {
+  border-radius: 5rem;
+}
+
+.languages-elements li p {
+  color: #253858;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
