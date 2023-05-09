@@ -224,7 +224,6 @@ body {
   list-style: none;
 }
 
-
 .js-logo {
   border-radius: 5rem;
 }
@@ -234,6 +233,7 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 /* CONTACT-SECTOIN  */
 .contact {
   background-color: #6070ff;
