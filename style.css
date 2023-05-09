@@ -239,7 +239,7 @@ body {
   background-color: #6070ff;
   border-top-left-radius: 6.4rem;
   padding: 12rem 0 4.8rem 0;
-  background-image: url(contact.shape.png.png);
+  background-image: url('./images/contact-form-bg.png');
   background-repeat: no-repeat;
   background-size: auto 88%;
   background-position: right;
