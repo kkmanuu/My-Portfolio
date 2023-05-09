@@ -56,6 +56,12 @@ Clone this repository to your desired folder:
 
 git clone https://github.com/kkmanuu
 
+### Install
+
+change the directory to the project:
+
+npm i
+
 ### Usage
 To run the project:
 
