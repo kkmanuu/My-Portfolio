@@ -320,13 +320,13 @@ body {
 .contact-btn:hover {
   background-color: #5a69f1;
   color: #fff;
-  transition: 0.2s;
+  transition: 0.3s;
 }
  
 .contact-btn:active {
 
   background-color: #2230d2;
   color: #fff;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
