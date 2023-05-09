@@ -2,7 +2,6 @@
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
 - [📖 Portfolio ](#-portfolio-a-nameabout-projecta)
   - [🛠 Built With ](#-built-with-a-namebuilt-witha)
     - [Tech Stack ](#tech-stack-a-nametech-stacka)
