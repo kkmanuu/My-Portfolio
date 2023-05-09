@@ -322,10 +322,11 @@ body {
   color: #fff;
   transition: 0.3s;
 }
- HEAD
+ 
 .contact-btn:active {
-  
+
   background-color: #2230D2;
   color: #fff;
   transition: 0.3s;
 }
+
