@@ -2,7 +2,6 @@
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
 - [📖 Portfolio ](#-portfolio-a-nameabout-projecta)
   - [🛠 Built With ](#-built-with-a-namebuilt-witha)
     - [Tech Stack ](#tech-stack-a-nametech-stacka)
@@ -55,6 +54,12 @@ node
 Clone this repository to your desired folder:
 
 git clone https://github.com/kkmanuu
+
+### Install
+
+change the directory to the project:
+
+npm i
 
 ### Usage
 To run the project:
