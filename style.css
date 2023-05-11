@@ -233,3 +233,97 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
 }
+/* CONTACT-SECTOIN  */
+.contact {
+  background-color: #6070ff;
+  border-top-left-radius: 6.4rem;
+  padding: 12rem 0 4.8rem 0;
+  background-image: url('./images/contact-form-bg.png');
+  background-repeat: no-repeat;
+  background-size: auto 88%;
+  background-position: right;
+}
+
+.contact-container {
+  padding: auto 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.2rem;
+}
+
+.contact-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.contact-detail {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.contact-input {
+  width: 32.7rem;
+  height: 4.8rem;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1.5rem 3.8rem 1.5rem 1.6rem;
+}
+
+.contact-input,
+.contact-input::placeholder {
+  color: #172b4d;
+  font-size: 1.7rem;
+}
+
+.contact-message {
+  width: 32.7rem;
+  height: 17.5rem;
+  color: #172b4d;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+  padding: 1.5rem 3.8rem 1.5rem 1.6rem;
+}
+
+.contact-message::placeholder {
+  color: #b3bac5;
+  font-size: 1.5rem;
+}
+
+.contact-input:focus,
+.contact-message:focus {
+  outline-color: #396df2;
+}
+
+.contact-btn {
+  color: #6070ff;
+  background-color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1.2rem 1.6rem;
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: #5a69f1;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.contact-btn:active {
+  background-color: #2230d2;
+  color: #fff;
+  transition: 0.3s;
+}
