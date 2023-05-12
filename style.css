@@ -18,6 +18,11 @@ html {
   border-bottom: 1px solid #dfe1e6;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
 /* NAVBAR */
 .navbar {
   padding: 2.8rem;
@@ -48,12 +53,13 @@ html {
 
 /* HEADLINE  */
 .headline {
-  background: url('.images/header.png.png');
+  /*background: url('.images/header.png.png');*/
+  background-image: url('.image/Header.background.png.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  /*height: 100vh;*/
   background-position: 100% 9rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   margin-bottom: 12.8rem;
 }
 
@@ -61,7 +67,11 @@ html {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  
 }
 
 .primary-header {
@@ -404,11 +414,17 @@ html {
 
   /* HEADLINE PART */
   .headline {
-    background: url('.images/header.png.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 100% 10rem;
-    margin: 6.4rem 4.8rem;
+    background: url('.image/Header.background.png.png');
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    width: 100%;
+    border-radius: 0;
+    padding: 200px 130px;
+    gap: 1.5rem;
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*background-position: 100% 10rem;*/
+    /*margin: 6.4rem 4.8rem;*/
   }
 
   .primary-header {
