@@ -53,11 +53,11 @@ body {
 
 /* HEADLINE  */
 .headline {
-  /*background: url('.images/header.png.png');*/
+  /* background: url('.images/header.png.png'); */
   background-image: url('.image/Header.background.png.png');
   background-repeat: no-repeat;
   background-size: cover;
-  /*height: 100vh;*/
+  /* height: 100vh; */
   background-position: 100% 9rem;
   padding-bottom: 0rem;
   margin-bottom: 12.8rem;
@@ -71,7 +71,6 @@ body {
   padding-right: 1rem;
   padding-top: 0rem;
   padding-bottom: 2rem;
-  
 }
 
 .primary-header {
@@ -421,10 +420,6 @@ body {
     border-radius: 0;
     padding: 200px 130px;
     gap: 1.5rem;
-    /*background-repeat: no-repeat;*/
-    /*background-size: contain;*/
-    /*background-position: 100% 10rem;*/
-    /*margin: 6.4rem 4.8rem;*/
   }
 
   .primary-header {
