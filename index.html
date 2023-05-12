@@ -15,8 +15,14 @@
   </head>
    <body>
    <header>
-        <a class="nav-logo" href="index.html">Emmanuel Kipngeno</a>
-        <nav class="navbar"><svg
+        <nav class="navbar">
+         <a class="nav-logo" href="index.html">Emmanuel Kipngeno</a>
+         <ul class="nav-list">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <svg
           width="18"
           height="12"
           viewBox="0 0 18 12"
@@ -33,10 +39,17 @@
         </svg>
       </nav>
     </header>
-    <section class="headline container">
-    <h1 class="primary-header">I’m Emmanuel Kipngeno. Glad to see you!</h1><p class="headline-description">
-        I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what ou see and have a project you need coded, don’t hesitate to contact me.
-      </p>
+    <section class="headline">
+      <div class="headline-container container">
+        <h1 class="primary-header">
+          I'm Emmanuel Kipngeno Glad to see you!
+        </h1>
+        <p class="headline-description">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hesitate to contact
+          me.
+        </p>
       <div class="social-media">
         <h2 class="secondary-header">LET’S CONNECT</h2>
         <ul class="social-icons">
@@ -79,8 +92,9 @@
 <!-- WORKS SECTION  -->
 <section class="works">
   <!-- first project  -->
- <div class="projects container">
-    <img class="project-img" src="images/Snapshoot Portfolio (1).png" alt="" />
+  <div class="projects container">
+  <img class="project-img" src="nature.png.png.png" alt="" />
+  <div class="project-detail">
     <h3 class="tertiary-heading">Tonic</h3>
     <ul class="project-details">
       <li>CONOPY</li>
@@ -98,9 +112,11 @@
     </ul>
     <button class="btn">See project</button>
   </div>
-  <!-- second project  -->
-  <div class="projects container">
-    <img class="project-img" src="images/Snapshoot Portfolio.png" alt="" />
+</div>
+<!-- second project  -->
+<div class="projects container">
+  <img class="project-img" src="Art print.png.png" alt="" />
+  <div class="project-detail">
     <h3 class="tertiary-heading">Multi-Post Stories</h3>
     <ul class="project-details">
       <li>CONOPY</li>
@@ -118,10 +134,12 @@
     </ul>
     <button class="btn">See project</button>
   </div>
-  <!-- thirs project  -->
-  <div class="projects container">
-    <img class="project-img" src="images/Snapshoot Portfolio (1).png" alt="" />
-    <h3 class="tertiary-heading">Tonic</h3>
+</div>
+<!-- thirs project  -->
+<div class="projects container">
+  <img class="project-img" src="Mnauu.png.png.png" alt="" />
+  <div class="project-detail">
+    <h3 class="tertiary-heading">Facebook 360</h3>
     <ul class="project-details">
       <li>CONOPY</li>
       <li>Back End Dev</li>
@@ -138,10 +156,12 @@
     </ul>
     <button class="btn">See project</button>
   </div>
-  <!-- fourth project  -->
-  <div class="projects container">
-    <img class="project-img" src="images/Snapshoot Portfolio.png" alt="" />
-    <h3 class="tertiary-heading">Multi-Post Stories</h3>
+</div>
+<!-- fourth project  -->
+<div class="projects container">
+  <img class="project-img" src="Availability.snap.png.png" alt="" />
+  <div class="project-detail">
+    <h3 class="tertiary-heading">uber Navigation</h3>
     <ul class="project-details">
       <li>CONOPY</li>
       <li>Back End Dev</li>
@@ -158,9 +178,11 @@
     </ul>
     <button class="btn">See project</button>
   </div>
+</div>
 </section>
 <!-- ABOUT ME SECTION  -->
-<section class="about container">
+<section class="about container" id="about">
+  <div class="about-container">
   <h2 class="secondary-header">About Myself</h2>
   <p class="headline-description">
     Hello I’m a software developer! I can help you build a product , feature
@@ -205,6 +227,7 @@
     </ul>
   </div>
   <button class="btn">Get my resume</button>
+  </div>
   <!-- LANGUAGES PART  -->
   <ul class="skillset">
     <li class="skillset-title">
@@ -293,7 +316,7 @@
   </ul>
 </section>
 <!-- CONTACT SECTION  -->
-<section class="contact">
+<section class="contact" id="contact">
   <div class="contact-container container">
     <div class="contact-desc">
       <h2 class="contact-title">Contact me</h2>
