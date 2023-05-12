@@ -232,8 +232,8 @@ html {
 }
 
 .skillset {
-  list-style:none;
-  margin-bottom:12.8rem;
+  list-style: none;
+  margin-bottom: 12.8rem;
 }
 
 .skillset-title {
@@ -402,7 +402,7 @@ html {
     border-bottom: 0.3rem solid #6070ff;
   }
 
-  /* HEADLINE PART*/
+  /* HEADLINE PART */
   .headline {
     background: url('.images/header.png.png');
     background-repeat: no-repeat;
