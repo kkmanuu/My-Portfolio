@@ -48,7 +48,7 @@ html {
 
 /* HEADLINE  */
 .headline {
-  background: url(Header.png.png);
+  background: url('.images/header.png.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -404,7 +404,7 @@ html {
 
   /* HEADLINE PART*/
   .headline {
-    background: url(Header.png.png);
+    background: url('.images/header.png.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 100% 10rem;
