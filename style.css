@@ -22,7 +22,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 /* NAVBAR */
 .navbar {
   padding: 2.8rem;
@@ -53,11 +52,9 @@ body {
 
 /* HEADLINE  */
 .headline {
-  /* background: url('.images/header.png.png'); */
   background-image: url('.image/Header.background.png.png');
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 100vh; */
   background-position: 100% 9rem;
   padding-bottom: 0rem;
   margin-bottom: 12.8rem;
