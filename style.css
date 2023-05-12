@@ -63,7 +63,7 @@ body {
 .headline-container {
   display: flex;
   flex-direction: column;
-  margin-top: 0rem;
+  margin-top: 0;
 }
 
 .primary-header {
@@ -421,7 +421,6 @@ body {
 
   .primary-header {
     margin-top: 10;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
