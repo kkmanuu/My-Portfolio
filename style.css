@@ -63,17 +63,12 @@ body {
 .headline-container {
   display: flex;
   flex-direction: column;
-  /*gap: 3.8rem;*/
-  /*padding-left: 1rem;*/
-  /*padding-right: 1rem;*/
-  /*padding-top: 1rem;*/
-  /*padding-bottom: 2rem;*/
   margin-top: 0rem;
 }
 
 .primary-header {
   color: #172b4d;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 5.2rem;
   margin-top: 0;
@@ -426,9 +421,6 @@ body {
 
   .primary-header {
     margin-top: 10;
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*letter-spacing: 0.37px;*/
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
