@@ -24,7 +24,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  padding: 2.8rem;
+  padding: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -63,11 +63,12 @@ body {
 .headline-container {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  /*gap: 3.8rem;*/
+  /*padding-left: 1rem;*/
+  /*padding-right: 1rem;*/
+  /*padding-top: 1rem;*/
+  /*padding-bottom: 2rem;*/
+  margin-top: 0rem;
 }
 
 .primary-header {
@@ -75,7 +76,8 @@ body {
   font-size: 4rem;
   font-weight: 700;
   line-height: 5.2rem;
-  margin-top: 20rem;
+  margin-top: 0;
+  padding: 0;
 }
 
 .primary-headre span {
@@ -382,7 +384,7 @@ body {
 
   /* NAVBAR SECTION  */
   .navbar {
-    padding: 3.2rem 8.8rem;
+    padding: 2.3rem 6.8rem;
   }
 
   .nav-btn {
@@ -400,7 +402,10 @@ body {
     text-decoration: none;
     color: #344563;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
   }
 
   .nav-list a:hover,
@@ -420,7 +425,15 @@ body {
   }
 
   .primary-header {
-    margin-top: 30%;
+    margin-top: 10;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*letter-spacing: 0.37px;*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
   }
 
   /* PROJECT PART */
