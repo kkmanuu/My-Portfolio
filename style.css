@@ -130,9 +130,10 @@ body {
   border-radius: 0.8rem;
   width: 100%;
 }
+
  .project-img:hover {
   transform: scale(1.1);
- }
+}
 
 .project-detail {
   display: flex;
@@ -384,9 +385,11 @@ body {
   .navbar {
     padding: 2.3rem 6.8rem;
   }
+
   .nav-logo:hover {
     transform: rotate(-10deg);
   }
+  
   .nav-btn {
     display: none;
   }
