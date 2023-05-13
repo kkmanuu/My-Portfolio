@@ -131,7 +131,7 @@ body {
   width: 100%;
 }
 
- .project-img:hover {
+.project-img:hover {
   transform: scale(1.1);
 }
 
