@@ -131,6 +131,10 @@ body {
   width: 100%;
 }
 
+.project-img:hover {
+  transform: scale(1.1);
+}
+
 .project-detail {
   display: flex;
   flex-direction: column;
@@ -380,6 +384,10 @@ body {
   /* NAVBAR SECTION  */
   .navbar {
     padding: 2.3rem 6.8rem;
+  }
+
+  .nav-logo:hover {
+    transform: rotate(-10deg);
   }
 
   .nav-btn {
