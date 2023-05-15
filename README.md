@@ -19,7 +19,7 @@
   - [📝 License ](#-license-a-namelicensea)
 # 📖 Portfolio <a name="about-project"></a>
 
-This website made for mobile version only.
+My personal portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,9 +33,13 @@ HTML is a Markup language and CSS is a styling language for HTML pages.
 
 
 - **Great and sample design**
-- **Responsive for mobile**
+- **Responsive for Desktop**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+🚀 Live Demo
+
+ [Click here](https://kkmanuu.github.io/My-Portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -53,7 +57,7 @@ node
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/kkmanuu
+git clone https://github.com/kkmanuu/My-Portfolio.git
 
 ### Install
 
