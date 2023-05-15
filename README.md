@@ -39,7 +39,7 @@ HTML is a Markup language and CSS is a styling language for HTML pages.
 
 🚀 Live Demo
 
-.https://kkmanuu.github.io/My-Portfolio/
+ [Click here](https://kkmanuu.github.io/My-Portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
