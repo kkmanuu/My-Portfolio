@@ -19,7 +19,7 @@
   - [📝 License ](#-license-a-namelicensea)
 # 📖 Portfolio <a name="about-project"></a>
 
-This website made for mobile version only.
+My personal portfolio website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,6 +36,10 @@ HTML is a Markup language and CSS is a styling language for HTML pages.
 - **Responsive for mobile**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+🚀 Live Demo
+
+.https://kkmanuu.github.io/My-Portfolio/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
