@@ -52,7 +52,7 @@ body {
 
 /* HEADLINE  */
 .headline {
-  background-image: url('.image/Header.background.png.png');
+  background-image: url('images/Header\ .png.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 9rem;
@@ -418,7 +418,7 @@ body {
 
   /* HEADLINE PART */
   .headline {
-    background: url('.image/Header.background.png.png');
+    background: url('images/Header\ .png.png');
     background-size: 100% 100%;
     background-position: 100% 100%;
     width: 100%;

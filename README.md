@@ -57,7 +57,7 @@ node
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/kkmanuu
+git clone .https://kkmanuu.github.io/My-Portfolio/
 
 ### Install
 
