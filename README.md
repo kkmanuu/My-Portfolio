@@ -41,6 +41,10 @@ HTML is a Markup language and CSS is a styling language for HTML pages.
 
  [Click here](https://kkmanuu.github.io/My-Portfolio/)
 
+
+[Watch the Loom walkthrough](https://www.loom.com/share/47d65d55efaa41cfbc31c44f1c63d3a4)
+
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps:
