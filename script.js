@@ -3,7 +3,6 @@ const bodyEl = document.querySelector('body');
 const closeBtn = document.querySelector('.close-icon');
 const navBtn = document.querySelector('.nav-btn');
 const navEl = document.querySelector('.navbar');
-const navItems = document.querySelectorAll('.nav-list li'); 
 const projectLogo = document.querySelector('.nav-logo');
 const sections = document.querySelectorAll('section'); 
 
@@ -36,7 +35,7 @@ navBtn.addEventListener('click', toggleNav);
 closeBtn.addEventListener('click', closeNav);
 
 // @ts-ignore
-navLinks.forEach((link) => {
+navItems.forEach((link) => {
   link.addEventListener('click', (event) => {
     smoothScroll(event);
     closeNav();
