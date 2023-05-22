@@ -3,45 +3,43 @@ const bodyEl = document.querySelector('body');
 const closeBtn = document.querySelector('.close-icon');
 const navBtn = document.querySelector('.nav-btn');
 const navEl = document.querySelector('.navbar');
+const navItems = document.querySelector('.nav-list');
+const navLinks = document.querySelectorAll('.nav-link');
 const projectLogo = document.querySelector('.nav-logo');
-const sections = document.querySelectorAll('section'); 
-
 // FUNCTIONS
-function toggleNav() {
+function operations() {
   // @ts-ignore
-  navEl.classList.toggle('nav-active');
+  closeBtn.classList.toggle('hidden');
   // @ts-ignore
-  bodyEl.classList.toggle('no-scroll');
+  navBtn.classList.toggle('hidden');
+  // @ts-ignore
+  navEl.classList.toggle('nav-mobile');
+  // @ts-ignore
+  bodyEl.classList.toggle('overflow');
+  // @ts-ignore
+  projectLogo.classList.toggle('opacity');
+  // @ts-ignore
+  navItems.classList.toggle('mobile-nav-list');
 }
 
-function closeNav() {
-  // @ts-ignore
-  navEl.classList.remove('nav-active');
-  // @ts-ignore
-  bodyEl.classList.remove('no-scroll');
-}
-
-function smoothScroll(event) {
-  event.preventDefault();
-  const targetId = event.currentTarget.getAttribute('href');
-  const targetSection = document.querySelector(targetId);
-  targetSection.scrollIntoView({ behavior: 'smooth' });
-}
-
-// EVENT LISTENERS
+// JENERAL OPERATION
 // @ts-ignore
-navBtn.addEventListener('click', toggleNav);
+navBtn.addEventListener('click', operations);
 // @ts-ignore
-closeBtn.addEventListener('click', closeNav);
-
-// @ts-ignore
-navItems.forEach((link) => {
-  link.addEventListener('click', (event) => {
-    smoothScroll(event);
-    closeNav();
+closeBtn.addEventListener('click', operations);
+navLinks.forEach((element) => {
+  element.addEventListener('click', () => {
+    // @ts-ignore
+    bodyEl.classList.remove('overflow');
+    // @ts-ignore
+    navEl.classList.remove('nav-mobile');
+    // @ts-ignore
+    navItems.classList.remove('mobile-nav-list');
+    // @ts-ignore
+    closeBtn.classList.add('hidden');
+    // @ts-ignore
+    navBtn.classList.remove('hidden');
+    // @ts-ignore
+    projectLogo.classList.remove('opacity');
   });
-});
-
-sections.forEach((section) => {
-  section.addEventListener('click', closeNav);
 });
