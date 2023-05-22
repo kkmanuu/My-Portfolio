@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.4%;
   scroll-behavior: smooth;
   scroll-padding-top: 6.4rem;
 }
@@ -220,7 +220,7 @@ html {
   padding: 1.2rem 1.6rem;
   align-self: flex-start;
   font-weight: 500;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .btn:hover {
