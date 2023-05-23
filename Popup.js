@@ -8,7 +8,7 @@ const projects = [
     name: 'Tonic',
     details: ['CONOPY', 'Back End Dev', '2015'],
     description:
-     '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
+     '  A daily selection of privately personalized reads; no accounts or sign-up required.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '',
     sourceLink: '',
