@@ -273,6 +273,100 @@ html {
   text-decoration: underline;
 }
 
+/* POPUP BOX DESIGN  */
+
+/* ****************** */
+.poup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(193, 199, 208, 0.7);
+  backdrop-filter: blur(5px);
+  padding-top: 5vh;
+  height: 100vh;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-close-icon {
+  width: 3.2rem;
+  color: #67798e;
+}
+
+.popup-btn {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+}
+
+.check-btn {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.line {
+  display: flex;
+  position: relative;
+  gap: 1rem;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  height: 0.1rem;
+  width: 100%;
+  background-color: #e9e9e9;
+  top: -10px;
+  left: 0;
+}
+
+.popup-logo {
+  display: flex;
+  align-items: center;
+}
+
+.popup-btn:hover a .popup-logo,
+.popup-btn:active {
+  fill: #fff;
+}
+
+.project-lang,
+.check-btn {
+  justify-content: center;
+}
+
+
 /* ABOUT ME */
 .about {
   display: grid;
@@ -436,6 +530,10 @@ html {
     padding: 3.2rem 8.8rem;
   }
 
+  .nav-logo:hover {
+    transform: rotate(-10deg);
+  }
+
   .nav-btn {
     display: none;
   }
@@ -464,7 +562,6 @@ html {
     left: 0;
     bottom: -7px;
     background-color: #6070ff;
-    transition: 0.3s;
   }
 
   .nav-list a:hover,
@@ -518,6 +615,51 @@ html {
 
   .btn {
     justify-self: left;
+  }
+
+   /* POPUP DESIGN  */
+   .popup {
+    padding-top: 0;
+  }
+
+  .popup-container {
+    grid-template-columns: 1fr;
+    max-width: 70%;
+    overflow: auto;
+    column-gap: 1.8rem;
+    height: 90vh;
+
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  }
+
+  .popup-details {
+    flex-direction: row;
+    gap: 0.3rem;
+    padding-top: 2rem;
+  }
+
+  .popup-description {
+    padding-right: 0;
+  }
+
+  .popup-technology {
+    width: 60%;
+  }
+
+  .popup-btn {
+    padding: 0.5rem 1rem;
+  }
+
+  .popup-btn span {
+    font-size: 1.2rem;
+  }
+
+  .popup-logo {
+    width: 1.4rem;
+  }
+
+  .popup-img {
+    margin-bottom: 1.8rem;
   }
 
   /* ABOUT SECTION  */
