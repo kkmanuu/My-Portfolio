@@ -45,7 +45,7 @@ const projects = [
     liveLink: '',
     sourceLink: '',
   },
-  ];
+];
 let template = '';
 //  PROJECT ITEM
 projects.forEach((project, index) => {
