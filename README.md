@@ -33,13 +33,15 @@ HTML is a Markup language and CSS is a styling language for HTML pages.
 
 
 - **Great and sample design**
-- **Responsive for Desktop**
+- **Responsive for Mobile Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 🚀 Live Demo
 
  [Click here](https://kkmanuu.github.io/My-Portfolio/)
+
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 

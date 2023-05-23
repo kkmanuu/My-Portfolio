@@ -13,16 +13,30 @@
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio Website</title>
   </head>
-   <body>
-    <!--Navbar Section-->
-   <header>
-        <nav class="navbar">
-         <a class="nav-logo" href="index.html">Emmanuel Kipngeno</a>
-         <ul class="nav-list">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
+  <body>
+    <!-- NAVBAR SECTION  -->
+    <header>
+      <nav class="navbar">
+        <a class="nav-logo" href="index.html">Emmanuel Kipngeno</a>
+        <ul class="nav-list">
+          <li class="nav-link"><a href="#work">Portfolio</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
         </ul>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="close-icon hidden"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
         <svg
           width="18"
           height="12"
@@ -40,323 +54,341 @@
         </svg>
       </nav>
     </header>
+    <!-- HEADLINE SECTION  -->
     <section class="headline">
       <div class="headline-container container">
         <h1 class="primary-header">
-          I'm Emmanuel Kipngeno.<br/>
-           Glad to see you!
+          I’m Emmanuel Kipngeno.<br />
+          Glad to see you!
         </h1>
         <p class="headline-description">
-          I’m a software developer! I can help you build a product , feature or
+          I’m a software developer! I can help you to build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hesitate to contact
           me.
         </p>
-      <div class="social-media">
-        <h2 class="secondary-header">LET’S CONNECT</h2>
-        <ul class="social-icons">
-          <li>
-            <a href="#"
-              ><img
-                src="images/social-media/twitter-icon.svg"
-                alt="Twitter icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                src="images/social-media/Linkedin-icon.svg"
-                alt="Linkdin Logo"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="images/social-media/medium-icon.svg" alt="Medium Logo"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="images/social-media/github-icon.svg" alt="Github Logo"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                src="images/social-media/anglist-icon.svg"
-                alt="Anglist Logo"
-            /></a>
-          </li>
-        </ul>
+        <div class="social-media">
+          <h2 class="social-header">LET’S CONNECT</h2>
+          <ul class="social-icons">
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/twitter-icon.svg"
+                  alt="Twitter icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/Linkedin-icon.svg"
+                  alt="Linkdin Logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/medium-icon.svg"
+                  alt="Medium Logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/github-icon.svg"
+                  alt="Github Logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/anglist-icon.svg"
+                  alt="Anglist Logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
-
-<!-- WORKS SECTION  -->
-<section class="works">
-  <!-- first project  -->
-  <div class="projects container">
-  <img class="project-img" src="images/KK.snaps.png.png" alt="" />
-  <div class="project-detail"> 
-    <h3 class="tertiary-heading">Tonic</h3>
-    <ul class="project-details">
-      <li>CONOPY</li>
-      <li>Back End Dev</li>
-      <li>2015</li>
-    </ul>
-    <p class="project-description">
-      A daily selection of privately personalized reads; no accounts or
-      sign-ups required.
-    </p>
-    <ul class="project-lang">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-    <button class="btn">See project</button>
-  </div>
-</div>
-<!-- second project  -->
-<div class="projects container">
-  <img class="project-img" src="images/art.kk.png.png" alt="" />
-  <div class="project-detail">
-    <h3 class="tertiary-heading">Multi-Post Stories</h3>
-    <ul class="project-details">
-      <li>CONOPY</li>
-      <li>Back End Dev</li>
-      <li>2015</li>
-    </ul>
-    <p class="project-description">
-      A daily selection of privately personalized reads; no accounts or
-      sign-ups required.
-    </p>
-    <ul class="project-lang">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-    <button class="btn">See project</button>
-  </div>
-</div>
-<!-- thirs project  -->
-<div class="projects container">
-  <img class="project-img" src="images/Mnauu.png.png.png" alt="" />
-  <div class="project-detail">
-    <h3 class="tertiary-heading">Facebook 360</h3>
-    <ul class="project-details">
-      <li>CONOPY</li>
-      <li>Back End Dev</li>
-      <li>2015</li>
-    </ul>
-    <p class="project-description">
-      A daily selection of privately personalized reads; no accounts or
-      sign-ups required.
-    </p>
-    <ul class="project-lang">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-    <button class="btn">See project</button>
-  </div>
-</div>
-<!-- fourth project  -->
-<div class="projects container">
-  <img class="project-img" src="images/Availability.snap.png.png" alt="" />
-  <div class="project-detail">
-    <h3 class="tertiary-heading">uber Navigation</h3>
-    <ul class="project-details">
-      <li>CONOPY</li>
-      <li>Back End Dev</li>
-      <li>2015</li>
-    </ul>
-    <p class="project-description">
-      A daily selection of privately personalized reads; no accounts or
-      sign-ups required.
-    </p>
-    <ul class="project-lang">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-    <button class="btn">See project</button>
-  </div>
-</div>
-</section>
-<!-- ABOUT ME SECTION  -->
-<section class="about container" id="about">
-  <div class="about-container">
-  <h2 class="secondary-header">About Myself</h2>
-  <p class="headline-description">
-    Hello I’m a software developer! I can help you build a product , feature
-    or website. Look through some of my work and experience! If you like
-    what you see and have a project you need coded, don’t hesitate to
-    contact me.
-  </p>
-  <div class="social-media">
-    <h2 class="social-header">LET’S CONNECT</h2>
-    <ul class="social-icons">
-      <li>
-        <a href="#"
-          ><img
-            src="images/social-media/twitter-icon.svg"
-            alt="Twitter icon"
-        /></a>
-      </li>
-      <li>
-        <a href="#"
-          ><img
-            src="images/social-media/Linkedin-icon.svg"
-            alt="Linkdin Logo"
-        /></a>
-      </li>
-      <li>
-        <a href="#"
-          ><img src="images/social-media/medium-icon.svg" alt="Medium Logo"
-        /></a>
-      </li>
-      <li>
-        <a href="#"
-          ><img src="images/social-media/github-icon.svg" alt="Github Logo"
-        /></a>
-      </li>
-      <li>
-        <a href="#"
-          ><img
-            src="images/social-media/anglist-icon.svg"
-            alt="Anglist Logo"
-        /></a>
-      </li>
-    </ul>
-  </div>
-  <button class="btn">Get my resume</button>
-  </div>
-  <!-- LANGUAGES PART  -->
-  <ul class="skillset">
-    <li class="skillset-title">
-      <h3 class="skillset-heading">Languages</h3>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="currentColor"
-        class="down-sign"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
-          clip-rule="evenodd"
-        />
-      </svg>
-    </li>
-    <li>
-      <ul class="languages-elements">
-        <li>
-          <span class="lang-logo">
-            <img
-              class="frontend-logo js-logo"
-              src="images/js.png"
-              alt="JavaScript Logo"
+    <!-- WORKS SECTION  -->
+    <section class="works" id="work">
+      <!-- first project  -->
+      <div class="projects container">
+        <div class="overflow">
+          <img class="project-img" src="images/KK.snaps.png.png" alt="" />
+        </div>
+        <div class="project-detail">
+          <h3 class="tertiary-heading">Tonic</h3>
+          <ul class="project-details">
+            <li>CONOPY</li>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+          <p class="project-description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="project-lang">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <button class="btn">See project</button>
+        </div>
+      </div>
+      <!-- second project  -->
+      <div class="projects container">
+        <div class="overflow">
+          <img class="project-img" src="images/art.kk.png.png" alt="" />
+        </div>
+        <div class="project-detail">
+          <h3 class="tertiary-heading">Multi-Post Stories</h3>
+          <ul class="project-details">
+            <li>CONOPY</li>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+          <p class="project-description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="project-lang">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <button class="btn">See project</button>
+        </div>
+      </div>
+      <!-- thirs project  -->
+      <div class="projects container">
+        <div class="overflow">
+          <img class="project-img" src="images/Mnauu.png.png.png" alt="" />
+        </div>
+        <div class="project-detail">
+          <h3 class="tertiary-heading">Tonic</h3>
+          <ul class="project-details">
+            <li>CONOPY</li>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+          <p class="project-description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="project-lang">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <button class="btn">See project</button>
+        </div>
+      </div>
+      <!-- fourth project  -->
+      <div class="projects container">
+        <div class="overflow">
+          <img class="project-img" src="images/Availability.snap.png.png" alt="" />
+        </div>
+        <div class="project-detail">
+          <h3 class="tertiary-heading">Multi-Post Stories</h3>
+          <ul class="project-details">
+            <li>CONOPY</li>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+          <p class="project-description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="project-lang">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <button class="btn">See project</button>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT ME SECTION  -->
+    <section class="about container" id="about">
+      <div class="about-container">
+        <h2 class="secondary-header">About Myself</h2>
+        <p class="headline-description">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website. Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don’t
+          hesitate to contact me.
+        </p>
+        <div class="social-media">
+          <h2 class="social-header">LET’S CONNECT</h2>
+          <ul class="social-icons">
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/twitter-icon.svg"
+                  alt="Twitter icon"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/Linkedin-icon.svg"
+                  alt="Linkdin Logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/medium-icon.svg"
+                  alt="Medium Logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/github-icon.svg"
+                  alt="Github Logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="images/social-media/anglist-icon.svg"
+                  alt="Anglist Logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <button class="btn">Get my resume</button>
+      </div>
+      <!-- LANGUAGES PART  -->
+      <ul class="skillset">
+        <li class="skillset-title">
+          <h3 class="skillset-heading">Languages</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="down-sign"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+              clip-rule="evenodd"
             />
-          </span>
-          <p>JavaScript</p>
+          </svg>
         </li>
         <li>
-          <span>
-            <img
-              class="frontend-logo"
-              src="images/html.image.png"
-              alt="HTML Logo"
-            />
-          </span>
-          <p>HTML</p>
+          <ul class="languages-elements">
+            <li>
+              <span class="lang-logo">
+                <img
+                  class="frontend-logo js-logo"
+                  src="images/js.png"
+                  alt="JavaScript Logo"
+                />
+              </span>
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <span>
+                <img
+                  class="frontend-logo"
+                  src="images/html.image.png"
+                  alt="HTML Logo"
+                />
+              </span>
+              <p>HTML</p>
+            </li>
+            <li>
+              <span>
+                <img
+                  class="frontend-logo"
+                  src="images/css.png"
+                  alt="CSS Logo"
+                />
+              </span>
+              <p>CSS</p>
+            </li>
+          </ul>
         </li>
-        <li>
-          <span>
-            <img
-              class="frontend-logo"
-              src="images/css.png"
-              alt="CSS Logo"
-            />
+        <li class="skillset-title border">
+          <h3 class="skillset-heading">Frameworks</h3>
+          <span class="sign"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="down-sign"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
           </span>
-          <p>CSS</p>
+        </li>
+        <li class="skillset-title border">
+          <h3 class="skillset-heading">Skills</h3>
+          <span class="sign"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="down-sign"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </span>
         </li>
       </ul>
-    </li>
-    <li class="skillset-title border">
-      <h3 class="skillset-heading">Frameworks</h3>
-      <span class="sign"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          class="down-sign"
+    </section>
+    <!-- CONTACT SECTION  -->
+    <section class="contact" id="contact">
+      <div class="contact-container container">
+        <div class="contact-desc">
+          <h2 class="contact-title">contact me</h2>
+          <p class="contact-detail">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it!
+          </p>
+        </div>
+        <form
+          action="https://formspree.io/f/xzbqorra"
+          method="post"
+          class="contact-form"
         >
-          <path
-            fill-rule="evenodd"
-            d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-            clip-rule="evenodd"
+          <input
+            class="contact-input"
+            type="text"
+            maxlength="30"
+            name="user-name"
+            placeholder="Lorem Ipsum"
+            required
           />
-        </svg>
-      </span>
-    </li>
-    <li class="skillset-title border">
-      <h3 class="skillset-heading">Skills</h3>
-      <span class="sign"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          class="down-sign"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-            clip-rule="evenodd"
+          <input
+            class="contact-input"
+            type="email"
+            name="user-email"
+            placeholder="Loremipsum@gmail.com"
+            required
           />
-        </svg>
-      </span>
-    </li>
-  </ul>
-</section>
-<!-- CONTACT SECTION  -->
-<section class="contact" id="contact">
-  <div class="contact-container container">
-    <div class="contact-desc">
-      <h2 class="contact-title">Contact me</h2>
-      <p class="contact-detail">
-        If you have an application you are interested in the developing, a
-        feature that you need built or a project that needs coding. I’d love
-        to help with it!
-      </p>
-    </div>
-    <form
-      action="https://formspree.io/f/xknaewkq"
-      method="post"
-      class="contact-form"
-    >
-      <input
-        class="contact-input"
-        type="text"
-        maxlength="30"
-        name="user-name"
-        placeholder="Lorem Ipsum"
-        required
-      />
-      <input
-        class="contact-input"
-        type="email"
-        name="user-email"
-        placeholder="Loremipsum@gmail.com"
-        required
-      />
-      <textarea
-        class="contact-message"
-        name="user-message"
-        maxlength="500"
-        placeholder="Write the message here"
-        required
-      ></textarea>
-      <button class="contact-btn" type="submit">Get in touch</button>
-    </form>
-  </div>
-</section>
-</body>
+          <textarea
+            class="contact-message"
+            name="user-message"
+            maxlength="500"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+          <button class="contact-btn" type="submit">Get in touch</button>
+        </form>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>
