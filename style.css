@@ -366,7 +366,6 @@ html {
   justify-content: center;
 }
 
-
 /* ABOUT ME */
 .about {
   display: grid;
@@ -618,7 +617,7 @@ html {
   }
 
    /* POPUP DESIGN  */
-   .popup {
+    .popup {
     padding-top: 0;
   }
 
