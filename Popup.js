@@ -14,7 +14,7 @@ const projects = [
     sourceLink: '',
   },
 
- {
+  {
     image: 'images/art.kk.png.png',
     name: 'Multi-Post Stories',
     details: ['CONOPY', 'Back End Dev', '2015'],
@@ -24,8 +24,8 @@ const projects = [
     liveLink: '',
     sourceLink: '',
 
- },
-{
+  },
+  {
     image: 'images/Mnauu.png.png.png',
     name: 'Tonic',
     details: ['CONOPY', 'Back End Dev', '2015'],
@@ -34,8 +34,8 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '',
     sourceLink: '',
-},
-{
+  },
+  {
     image: 'images/Availability.snap.png.png',
     name: 'Multi-Post Stories',
     details: ['CONOPY', 'Back End Dev', '2015'],
@@ -44,8 +44,8 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: '',
     sourceLink: '',
-},
-];
+  },
+  ];
 let template = '';
 //  PROJECT ITEM
 projects.forEach((project, index) => {
@@ -190,5 +190,3 @@ seeProjectEl.forEach((button, index) => {
     overlay.addEventListener('click', closeModal);
   });
 });
-
-
