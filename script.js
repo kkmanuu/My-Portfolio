@@ -6,7 +6,7 @@ const navEl = document.querySelector('.navbar');
 const navItems = document.querySelector('.nav-list');
 const navLinks = document.querySelectorAll('.nav-link');
 const projectLogo = document.querySelector('.nav-logo');
-// FUNCTIONS
+// NAVBAR
 function operations() {
   closeBtn.classList.toggle('hidden');
   navBtn.classList.toggle('hidden');
@@ -16,7 +16,6 @@ function operations() {
   navItems.classList.toggle('mobile-nav-list');
 }
 
-// JENERAL OPERATION
 navBtn.addEventListener('click', operations);
 closeBtn.addEventListener('click', operations);
 navLinks.forEach((element) => {
@@ -29,3 +28,49 @@ navLinks.forEach((element) => {
     projectLogo.classList.remove('opacity');
   });
 });
+
+// VALIDATIONA FORM
+
+const error = document.getElementById('error-message');
+const form = document.querySelector('.contact-form');
+const userEmail = document.getElementById('user-email');
+const errorMessage = 'Please write your email address in lower case';
+// CODE
+form.addEventListener('submit', (event) => {
+  // prevent from submittion
+  event.preventDefault();
+  const userInput = userEmail.value;
+  if (userInput !== userInput.toLowerCase()) {
+    error.innerText = errorMessage;
+  } else {
+    error.innerText = '';
+    form.submit();
+  }
+});
+
+// LOCAL STORAGE
+const userName = document.getElementById('user-name');
+const userMessage = document.getElementById('user-message');
+const contactDetails = {
+  fullName: String,
+  email: String,
+  message: String,
+};
+
+form.addEventListener('input', () => {
+  contactDetails.fullName = userName.value;
+  contactDetails.email = userEmail.value;
+  contactDetails.message = userMessage.value;
+
+  localStorage.setItem('contactDetails', JSON.stringify(contactDetails));
+});
+
+window.onload = () => {
+  const contactData = JSON.parse(localStorage.getItem('contactDetails'));
+
+  if (contactData) {
+    userName.value = contactData.fullName;
+    userEmail.value = contactData.email;
+    userMessage.value = contactData.message;
+  }
+};
