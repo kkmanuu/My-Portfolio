@@ -34,6 +34,7 @@ HTML is a Markup language and CSS is a styling language for HTML pages.
 
 - **Great and sample design**
 - **Responsive for Mobile Menu**
+- **Preserve Data in Browser**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,6 +90,8 @@ Open the index file in your browser or live server
 
 - [ ] **Navbar**
 - [ ] **Contact**
+- [ ] **Popup window**
+- [ ] **Preserve Data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
