@@ -254,10 +254,10 @@
     <section class="contact" id="contact">
       <div class="contact-container container">
         <div class="contact-desc">
-          <h2 class="contact-title">contact me</h2>
+          <h2 class="contact-title">Contact me</h2>
           <p class="contact-detail">
             If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
+            feature that you need to built or a project that needs coding. I’d love
             to help with it!
           </p>
         </div>
@@ -271,6 +271,7 @@
             type="text"
             maxlength="30"
             name="user-name"
+            id="user-name"
             placeholder="Lorem Ipsum"
             required
           />
@@ -278,17 +279,20 @@
             class="contact-input"
             type="email"
             name="user-email"
+            id="user-email"
             placeholder="Loremipsum@gmail.com"
             required
           />
           <textarea
             class="contact-message"
             name="user-message"
+            id="user-message"
             maxlength="500"
             placeholder="Write your message here"
             required
-          ></textarea>
+          <!-- ></textarea>
           <button class="contact-btn" type="submit">Get in touch</button>
+          <span id="error-message"></span> -->
         </form>
       </div>
     </section>

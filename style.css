@@ -519,6 +519,11 @@ html {
   transition: 0.3s;
 }
 
+#error-message {
+  font-size: 1.6rem;
+  color: red;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     margin: auto 10%;
@@ -697,7 +702,13 @@ html {
 
   .contact-input,
   .contact-message {
-    width: 44.7rem;
+    width: 44.6rem;
     border-radius: 0.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: auto 10%;
   }
 }
