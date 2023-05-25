@@ -37,7 +37,7 @@ const userEmail = document.getElementById('user-email');
 const errorMessage = 'Please write your email address in lower case';
 // CODE
 form.addEventListener('submit', (event) => {
-  // prevent from submittion
+  // preventing from submittion
   event.preventDefault();
   const userInput = userEmail.value;
   if (userInput !== userInput.toLowerCase()) {
