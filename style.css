@@ -217,7 +217,7 @@ html {
   font-size: 1.7rem;
   border: 1px solid #6070ff;
   border-radius: 0.8rem;
-  padding: 1.2rem 1.5rem;
+  padding: 1.2rem 1.6rem;
   align-self: flex-start;
   font-weight: 500;
   transition: 0.2s;
@@ -519,11 +519,6 @@ html {
   transition: 0.3s;
 }
 
-#error-message {
-  font-size: 1.6rem;
-  color: red;
-}
-
 @media screen and (min-width: 768px) {
   .container {
     margin: auto 10%;
@@ -623,7 +618,7 @@ html {
 
   /* POPUP DESIGN  */
   .popup {
-    padding-top: 0;
+   padding-top: 0;
   }
 
   .popup-container {
@@ -702,13 +697,7 @@ html {
 
   .contact-input,
   .contact-message {
-    width: 44.6rem;
+    width: 44.7rem;
     border-radius: 0.2rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    margin: auto 10%;
   }
 }

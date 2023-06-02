@@ -5,7 +5,7 @@ const navBtn = document.querySelector('.nav-btn');
 const navEl = document.querySelector('.navbar');
 const navItems = document.querySelector('.nav-list');
 const navLinks = document.querySelectorAll('.nav-link');
-const projectLogo = document.querySelector('.nav-logo');
+const projectLogo = document.querySelector('');
 // NAVBAR
 function operations() {
   closeBtn.classList.toggle('hidden');
