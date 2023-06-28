@@ -6,9 +6,9 @@ const projects = [
   {
     image: 'images/Gahe list.png',
     name: 'Todo List',
-    details: ['CONOPY', 'Back End Dev', '2015'],
+    details: ['Microverse', 'Front-end', '2023'],
     description:
-     '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
+     ' Efficient JavaScript To-Do List with Status Updates: An enhanced version featuring task management, status updates, and local storage persistence. Users can add, delete, and edit tasks,mark them as completed/incomplete with checkboxes, and easily clear completed tasks',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://kkmanuu.github.io/To-Do-Lists/dist/',
     sourceLink: 'https://github.com/kkmanuu/To-Do-Lists',
