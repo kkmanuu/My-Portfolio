@@ -5,13 +5,13 @@ const project = document.querySelector('#work');
 const projects = [
   {
     image: 'images/Todo lists.png.png',
-    name: 'Tonic',
+    name: 'Todo List',
     details: ['CONOPY', 'Back End Dev', '2015'],
     description:
      '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
+    liveLink: 'https://kkmanuu.github.io/To-Do-Lists/dist/',
+    sourceLink: 'https://github.com/kkmanuu/To-Do-Lists',
   },
 
   {
