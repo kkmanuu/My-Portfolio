@@ -363,7 +363,7 @@ html {
 
 .project-lang,
 .check-btn {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* ABOUT ME */
