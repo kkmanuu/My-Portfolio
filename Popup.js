@@ -4,14 +4,14 @@ const project = document.querySelector('#work');
 // OBJECT FOR STORING PROJECTS DATA
 const projects = [
   {
-    image: 'images/Todo lists.png.png',
-    name: 'Todo List',
+    image: 'images/KK.snaps.png.png',
+    name: 'Tonic',
     details: ['CONOPY', 'Back End Dev', '2015'],
     description:
      '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://kkmanuu.github.io/To-Do-Lists/dist/',
-    sourceLink: 'https://github.com/kkmanuu/To-Do-Lists',
+    liveLink: '',
+    sourceLink: '',
   },
 
   {
