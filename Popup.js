@@ -4,7 +4,7 @@ const project = document.querySelector('#work');
 // OBJECT FOR STORING PROJECTS DATA
 const projects = [
   {
-    image: 'images/Gahe list.png',
+    image: 'images/Gahec list.png',
     name: 'Todo List',
     details: ['Microverse', 'Front-end', '2023'],
     description:
@@ -109,8 +109,8 @@ function createPopup(project) {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              viewBox="0 0 34 34"
-              stroke-width="2.5"
+              viewBox="0 0 25 25"
+              stroke-width="1.5"
               stroke="currentColor"
               class="popup-close-icon"
             >
