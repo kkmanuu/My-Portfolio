@@ -15,14 +15,14 @@ const projects = [
   },
 
   {
-    image: 'images/art.kk.png.png',
-    name: 'Multi-Post Stories',
-    details: ['CONOPY', 'Back End Dev', '2015'],
+    image: 'images/MLeaady..png',
+    name: ' LEADERBOARD',
+    details: ['Microverse', 'Front-end', '2023'],
     description:
-      '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      ' The leaderboard website displays scores submitted by different players and It also allows you to submit your score. ',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
+    liveLink: 'https://kkmanuu.github.io/Leaderboard/dist/',
+    sourceLink: 'https://github.com/kkmanuu/Leaderboard',
 
   },
   {
