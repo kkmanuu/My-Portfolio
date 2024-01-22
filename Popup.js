@@ -24,26 +24,26 @@ const projects = [
     liveLink: 'https://kkmanuu.github.io/Leaderboard/dist/',
     sourceLink: 'https://github.com/kkmanuu/Leaderboard',
 
-  },
+  }, 
   {
-    image: 'images/Mnauu.png.png.png',
+    image: 'images/Screenshot (7)crypto.png',
     name: 'Tonic',
-    details: ['CONOPY', 'Back End Dev', '2015'],
+    details: ['Microverse', 'Back End Dev', '2023'],
     description:
-      '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      ' CryptoSphere  is a sophisticated platform for users to access comprehensive information regarding the leading 30 cryptocurrencies ',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
+    liveLink: 'https://cryptocurrency-agir.onrender.com/',
+    sourceLink: 'https://github.com/kkmanuu',
   },
   {
-    image: 'images/Availability.snap.png.png',
-    name: 'Multi-Post Stories',
-    details: ['CONOPY', 'Back End Dev', '2015'],
+    image: 'images/Screenshot (6).png',
+    name: 'Wheels-4-Rent',
+    details: ['Front-End', 'Back End Dev', '2023'],
     description:
-      '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
+      '  An application programming interface (API) tailored for car rental services streamlines the integration of rental functionalities into various applications or systems. It empowers users to execute essential tasks associated with vehicle rental, including reservation and inventory management.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'postgreSQL','Reduux'],
+    liveLink: 'https://wheels-4-rentv1.onrender.com/',
+    sourceLink: 'https://github.com/kkmanuu/Wheels-4-Rent-backend',
   },
 ];
 let template = '';
