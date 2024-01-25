@@ -4,46 +4,56 @@ const project = document.querySelector('#work');
 // OBJECT FOR STORING PROJECTS DATA
 const projects = [
   {
-    image: 'images/KK.snaps.png.png',
-    name: 'Tonic',
-    details: ['CONOPY', 'Back End Dev', '2015'],
+    image: 'images/Gahec list.png',
+    name: 'Todo List',
+    details: ['Microverse', 'Front-end', '2023'],
     description:
-     '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
+     ' Efficient JavaScript To-Do List with Status Updates: An enhanced version featuring task management, status updates, and local storage persistence. Users can add, delete, and edit tasks,mark them as completed/incomplete with checkboxes, and easily clear completed tasks',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
+    liveLink: 'https://kkmanuu.github.io/To-Do-Lists/dist/',
+    sourceLink: 'https://github.com/kkmanuu/To-Do-Lists',
   },
 
   {
-    image: 'images/art.kk.png.png',
-    name: 'Multi-Post Stories',
-    details: ['CONOPY', 'Back End Dev', '2015'],
+    image: 'images/MLeaady..png',
+    name: ' LEADERBOARD',
+    details: ['Microverse', 'Front-end', '2023'],
     description:
-      '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      ' The leaderboard website displays scores submitted by different players and It also allows you to submit your score. ',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
+    liveLink: 'https://kkmanuu.github.io/Leaderboard/dist/',
+    sourceLink: 'https://github.com/kkmanuu/Leaderboard',
 
+  }, 
+  {
+    image: 'images/Screenshot (7)crypto.png',
+    name: 'cryptocurrency',
+    details: ['Microverse', 'Back End Dev', '2023'],
+    description:
+      ' CryptoSphere  is a sophisticated platform for users to access comprehensive information regarding the leading 30 cryptocurrencies ',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveLink: 'https://cryptocurrency-agir.onrender.com/',
+    sourceLink: 'https://github.com/kkmanuu',
   },
   {
-    image: 'images/Mnauu.png.png.png',
-    name: 'Tonic',
-    details: ['CONOPY', 'Back End Dev', '2015'],
+    image: 'images/Screenshot (6).png',
+    name: 'Wheels-4-Rent',
+    details: ['Front-End', 'Back End Dev', '2023'],
     description:
-      '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
+      '  An application programming interface (API) tailored for car rental services streamlines the integration of rental functionalities into various applications or systems. It empowers users to execute essential tasks associated with vehicle rental, including reservation and inventory management.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'postgreSQL','Reduux'],
+    liveLink: 'https://wheels-4-rentv1.onrender.com/',
+    sourceLink: 'https://github.com/kkmanuu/Wheels-4-Rent-backend',
   },
   {
-    image: 'images/Availability.snap.png.png',
-    name: 'Multi-Post Stories',
-    details: ['CONOPY', 'Back End Dev', '2015'],
+    image: 'images/bookstore.png',
+    name: 'bookstore',
+    details: ['Front-End', '2023'],
     description:
-      '  A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: '',
-    sourceLink: '',
+      'This project serves as the foundational framework for a Bookstore website, with a primary emphasis on constructing the user interface through the use of React. The implementation of React ensures a dynamic and responsive user experience, allowing for seamless navigation and interaction with the bookstore',
+    technologies: ['HTML', 'CSS', 'JavaScript',],
+    liveLink: 'https://bookstore-bg5v.onrender.com/',
+    sourceLink: 'https://github.com/kkmanuu/bookstore',
   },
 ];
 let template = '';
@@ -109,7 +119,7 @@ function createPopup(project) {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              viewBox="0 0 24 24"
+              viewBox="0 0 25 25"
               stroke-width="1.5"
               stroke="currentColor"
               class="popup-close-icon"

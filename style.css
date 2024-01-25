@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  color: #8458B3;
 }
 
 html {
@@ -97,6 +98,38 @@ html {
   display: block;
 }
 
+.home-scroll {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  color: blue;
+  transform: translateX(-50%);
+}
+
+.home-scroll-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+}
+
+.button-flex {
+  display: flex;
+  align-items: center;
+}
+
+.home-scroll-mouse {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.home-scroll-arrow {
+  font-size: 24px;
+  margin-top: 5px;
+}
+
 .headline-description {
   color: #344563;
   font-size: 1.6rem;
@@ -134,7 +167,7 @@ html {
 }
 
 .projects {
-  background-color: #fff;
+  background-color: #f1f0ee;
   border: 1px solid #dfe1e6;
   border-radius: 1.6rem;
   padding: 1.6rem;
@@ -143,11 +176,13 @@ html {
   flex-direction: column;
   gap: 1.2rem;
   z-index: 9;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .project-img {
   border-radius: 0.8rem;
   width: 100%;
+  height: 90%;
 }
 
 .project-detail {
@@ -197,12 +232,39 @@ html {
 
 .languages-elements li {
   list-style-type: none;
-  background-color: #f7f7f9;
+  background-color: darkgrey;
   padding: 1rem;
   border-radius: 0.8rem;
   display: flex;
   align-items: center;
   gap: 2.4rem;
+}
+
+/* .framework-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+} */
+
+.framework-list li {
+  list-style-type: none;
+  background-color: darkgrey;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.skillset-list li{
+  list-style-type: none;
+  background-color: darkgrey;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 4.4rem;
+  transform: translateY(20px);
 }
 
 .project-details li:first-child {
@@ -363,7 +425,7 @@ html {
 
 .project-lang,
 .check-btn {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* ABOUT ME */
@@ -393,6 +455,20 @@ html {
   margin-top: 3.2rem;
 }
 
+.skillset-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  transition: max-height 0.3s ease-out;
+}
+
+
+.skillset-list li p {
+  color: #253858;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 .skillset-heading {
   font-size: 2rem;
   font-weight: 500;
@@ -413,6 +489,12 @@ html {
   gap: 1.2rem;
 }
 
+ .framework-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+} 
+
 .frontend-logo {
   width: 4.8rem;
   height: 4.8rem;
@@ -424,6 +506,12 @@ html {
 }
 
 .languages-elements li p {
+  color: #253858;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.framework-list li p {
   color: #253858;
   font-size: 1.5rem;
   font-weight: 500;
@@ -546,6 +634,14 @@ html {
     list-style: none;
     display: flex;
     gap: 3.2rem;
+  }
+
+  .home-scroll {
+    display: block;
+  }
+
+  .home-scroll-btn {
+    margin-left: 7rem;
   }
 
   .nav-list a:link,
@@ -678,6 +774,16 @@ html {
     gap: 1.8rem;
   }
 
+  .framework-list {
+    flex-direction: row;
+  }
+ 
+  .framework-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 12rem;
+    gap: 1.8rem;
+  }
   /* ABOUT SECTION  */
   .about {
     grid-template-columns: 4fr 6fr;
@@ -689,6 +795,17 @@ html {
 
   .skillset {
     margin-top: -2rem;
+  }
+
+  .skillset-list {
+    flex-direction: row;
+  }
+ 
+  .skillset-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 12rem;
+    gap: 1.8rem;
   }
 
   /* CONTACT SECTION  */
