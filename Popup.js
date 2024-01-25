@@ -27,7 +27,7 @@ const projects = [
   }, 
   {
     image: 'images/Screenshot (7)crypto.png',
-    name: 'Tonic',
+    name: 'cryptocurrency',
     details: ['Microverse', 'Back End Dev', '2023'],
     description:
       ' CryptoSphere  is a sophisticated platform for users to access comprehensive information regarding the leading 30 cryptocurrencies ',
@@ -44,6 +44,16 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'postgreSQL','Reduux'],
     liveLink: 'https://wheels-4-rentv1.onrender.com/',
     sourceLink: 'https://github.com/kkmanuu/Wheels-4-Rent-backend',
+  },
+  {
+    image: 'images/bookstore.png',
+    name: 'bookstore',
+    details: ['Front-End', '2023'],
+    description:
+      'This project serves as the foundational framework for a Bookstore website, with a primary emphasis on constructing the user interface through the use of React. The implementation of React ensures a dynamic and responsive user experience, allowing for seamless navigation and interaction with the bookstore',
+    technologies: ['HTML', 'CSS', 'JavaScript',],
+    liveLink: 'https://bookstore-bg5v.onrender.com/',
+    sourceLink: 'https://github.com/kkmanuu/bookstore',
   },
 ];
 let template = '';
