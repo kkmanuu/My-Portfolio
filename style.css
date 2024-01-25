@@ -232,7 +232,7 @@ html {
 
 .languages-elements li {
   list-style-type: none;
-  background-color: #f7f7f9;
+  background-color: darkgrey;
   padding: 1rem;
   border-radius: 0.8rem;
   display: flex;
@@ -248,7 +248,7 @@ html {
 
 .framework-list li {
   list-style-type: none;
-  background-color: #f7f7f9;
+  background-color: darkgrey;
   padding: 1rem;
   border-radius: 0.8rem;
   display: flex;
@@ -258,14 +258,13 @@ html {
 
 .skillset-list li{
   list-style-type: none;
-  background-color: #f7f7f9;
+  background-color: darkgrey;
   padding: 1rem;
   border-radius: 0.8rem;
   display: flex;
   align-items: center;
-  gap: 2.4rem;
+  gap: 4.4rem;
   transform: translateY(20px);
-  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
 }
 
 .project-details li:first-child {
